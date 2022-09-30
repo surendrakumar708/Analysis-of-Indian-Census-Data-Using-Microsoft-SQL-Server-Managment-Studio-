@@ -1,0 +1,38 @@
+total male and female
+
+female/male = sex_ratio    .............1
+female+male = population   .............2
+
+female = population-male   .............3
+
+male = female/sex_ratio
+male = (population-male)/sex_ratio
+sex_ratio*male = population-male
+(sex_ratio*male)+male = population
+male(sex_ratio+1) = population
+male = population/(sex_ratio+1) .........4
+
+from equation 3
+female = population - population/(sex_ratio+1)
+female = population (1-1/sex_ratio+1)
+female = population (sex_ratio/sex_ratio+1) .......5
+----------------------
+
+
+calculation of total number of literate and illiterate people
+
+literate/population = literacy_ratio   .............1
+illiterate = population-literate       .............2
+literate = literacy_ratio*population .............3
+
+illiterate = population - literacy_ratio*population
+illiterate = population (1-literacy_ratio)
+-------------------------
+
+
+calculation of population in previous census
+
+population = previous_population+previous_population*growth
+population = previous_population(1+growth)
+previous_population = population/(1+growth)
+ 
